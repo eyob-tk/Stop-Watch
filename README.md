@@ -1,16 +1,72 @@
-# React + Vite
+# React Stopwatch Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and accurate Stopwatch application built with **React** and **Vite**. This project demonstrates efficient state management, side-effect handling with `useEffect`, and direct value persistence across renders using React hooks like `useRef`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Start / Stop / Reset Controls**: Smoothly control timer execution without unexpected lag or state drift.
+- **High-Precision Formatting**: Displays time accurately formatted as `HH:MM:SS:MS` (Hours, Minutes, Seconds, Milliseconds).
+- **Optimized Rendering**: Leverages `useRef` to hold interval references and timestamps without triggering unnecessary re-renders.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework/Library**: React
+- **Build Tool**: Vite
+- **Styling**: CSS3
+- **Language**: JavaScript (ES6+)
+
+---
+
+## 📁 Project Structure
+
+```text
+stopwatch/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── StopWatch.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+⚙️ Setup and Installation
+
+Follow these steps to get the application up and running locally:
+
+1. Clone the repository
+
+```
+git clone [https://github.com/eyob-tk/Stop-Watch.git](https://github.com/eyob-tk/Stop-Watch.git) 
+cd stopwatch
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the development server
+
+```
+npm run dev
+```
+
+4. View in browser
+
+Open the local server link printed in your terminal (typically `http://localhost:5173`).
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
